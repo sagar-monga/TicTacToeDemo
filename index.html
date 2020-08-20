@@ -5,25 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicTacToe</title>
     <script src="js/logic.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="external.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <td><button id = 'B00'>!!!</button></td>
-            <td><button id = 'B01'>!!!</button></td>
-            <td><button id = 'B02'>!!!</button></td>
-        </tr>
-        <tr>
-            <td><button id = 'B10'>!!!</button></td>
-            <td><button id = 'B11'>!!!</button></td>
-            <td><button id = 'B12'>!!!</button></td>
-        </tr>
-        <tr>
-            <td><button id = 'B20'>!!!</button></td>
-            <td><button id = 'B21'>!!!</button></td>
-            <td><button id = 'B22'>!!!</button></td>
-        </tr>
-    </table>
-    <h2 id = 'result'></h2>
+    <h1>Tic Tac Toe Game</h1>
+    <div id = "ttt">
+        <table>
+            <tr>
+                <td><button id = 'B00' class = "btnClass"></button></td>
+                <td><button id = 'B01' class = "btnClass"></button></td>
+                <td><button id = 'B02' class = "btnClass"></button></td>
+            </tr>
+            <tr>
+                <td><button id = 'B10' class = "btnClass"></button></td>
+                <td><button id = 'B11' class = "btnClass"></button></td>
+                <td><button id = 'B12' class = "btnClass"></button></td>
+            </tr>
+            <tr>
+                <td><button id = 'B20' class = "btnClass"></button></td>
+                <td><button id = 'B21' class = "btnClass"></button></td>
+                <td><button id = 'B22' class = "btnClass"></button></td>
+            </tr>
+        </table>
+        <button id = 'resetBtn' onclick="location.reload()" >Reset</button>
+    </div>
+    <div id = 'win'>
+        <label id = 'result'></label>
+    </div>
 </body>
 </html>

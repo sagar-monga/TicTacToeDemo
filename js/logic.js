@@ -2,20 +2,15 @@ window.addEventListener('load', bindEvent);
 
 var turn = 1;
 function bindEvent(){
-    document.querySelector('#B00').addEventListener('click', putXO);
-    document.querySelector('#B01').addEventListener('click', putXO);
-    document.querySelector('#B02').addEventListener('click', putXO);
-    document.querySelector('#B10').addEventListener('click', putXO);
-    document.querySelector('#B11').addEventListener('click', putXO);
-    document.querySelector('#B12').addEventListener('click', putXO);
-    document.querySelector('#B20').addEventListener('click', putXO);
-    document.querySelector('#B21').addEventListener('click', putXO);
-    document.querySelector('#B22').addEventListener('click', putXO);
+    for(var x = 0; x < 3; x++){
+        for(var y = 0; y < 3; y++)
+            document.querySelector('#B'+x+y).addEventListener('click', putXO);
+    }
 }
 
 function putXO(){
     var val;
-    if(this.innerHTML == '!!!'){
+    if(this.innerHTML == ""){
         if(document.getElementById('result').innerText == ""){
             turn % 2 == 1 ? val = "X" : val = "O";
             this.innerHTML = val;
