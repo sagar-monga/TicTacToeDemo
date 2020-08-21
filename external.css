@@ -13,12 +13,14 @@ body{
 }
 
 #game{
-    margin-left: 40%;
+    width: 20%;
+    margin: 0 auto;
 }
 
 #resbtn{
-    margin-left: 40%;
-    margin-top: 15px;
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 
 #resultlabel{
