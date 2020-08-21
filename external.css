@@ -5,10 +5,11 @@ body{
 
 
 #header{
+    margin:auto;
     color: maroon;
     font-size: larger;
     margin-left: 35%;
-    text-shadow: 5px 5px 5px blue;
+    text-shadow: 5px 0px 10px blue;
 }
 
 #game{
