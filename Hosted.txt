@@ -1,0 +1,3 @@
+The game is deployeed using heroku at the URL
+
+http://tictactoe-demo-sm.herokuapp.com/index.html
