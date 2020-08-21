@@ -21,12 +21,13 @@ body{
 }
 
 #resultlabel{
-    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:lime;
     font-size: 2em;
     font-weight: bolder;
     margin-left: 40%;
     margin-top: 15px;
-    text-shadow: 5px 5px 7px darkorange;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .btnClass{
     color: black;
