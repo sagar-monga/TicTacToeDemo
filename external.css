@@ -3,13 +3,31 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-label{
-    font-size: 1.5em;
-    font-weight: bolder;
-    font-style: italic;
+
+#header{
+    color: maroon;
+    font-size: larger;
+    margin-left: 35%;
+    text-shadow: 5px 5px 5px blue;
 }
 
+#game{
+    margin-left: 40%;
+}
 
+#resbtn{
+    margin-left: 40%;
+    margin-top: 15px;
+}
+
+#resultlabel{
+    color: red;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-left: 40%;
+    margin-top: 15px;
+    text-shadow: 5px 5px 7px darkorange;
+}
 .btnClass{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
