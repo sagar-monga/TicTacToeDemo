@@ -1,11 +1,14 @@
 body{
     align-content: right;
     font-family: 'Open Sans', sans-serif;
+    background-image: url('marble_bg.jpg');
+}
+#ttt{
+    width:100%;
 }
 
-
 #header{
-    width: 25%;
+    width: 20%;
     margin: 0 auto;
     color: maroon;
     font-size: larger;
